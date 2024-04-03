@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import fetchData from './utils/fetchData';
 
 // We do NOT want to expose this information like this
-const API_KEY = 'paste_here_from_giphy_API';
+const API_KEY = 'YLSmQ7YZd6YndqlTkexFWAFHr7K0XZ9b';
 
 function App() {
   const [gifs, setGifs] = useState([])
