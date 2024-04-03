@@ -41,7 +41,7 @@ const serveGifs = (req, res, send) => {
 
 app.use(logRoutes);
 app.use(serveStatic);
-app.get('/api/gifs', serveGifs)
+app.get('/api/gifs', serveGifs);
 
 const port = 8080;
 app.listen(port, () => {
